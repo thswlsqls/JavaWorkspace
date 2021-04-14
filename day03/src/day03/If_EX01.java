@@ -6,80 +6,80 @@ public class If_EX01 {
 
 	public static void main(String[] args) {
 		//Scanner input = new Scanner(System.in);
-		/*
+		/* git add, commit test, git commit --amend, git log, git reset HEAD^, commit changes, day03 day04 added - scanner, if switch
 		int num;
-		System.out.println("1.½¬¿î °ÔÀÓ");
-		System.out.println("2.¾î·Á¿î °ÔÀÓ");
-		System.out.println("3. ³ª°¡±â");
+		System.out.println("1.ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½");
+		System.out.println("2.ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½");
+		System.out.println("3. ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
 		System.out.println(">>> ");
 		num = input.nextInt();
 		if(num == 1)
-			System.out.println("½¬¿î °ÔÀÓ ½ÃÀÛ");
+			System.out.println("ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½");
 		if(num == 2)
-			System.out.println("¾î·Á¿î °ÔÀÓ ½ÃÀÛ");
+			System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½");
 		if(num == 3)
-			System.out.println("Á¾·á ÇÕ´Ï´Ù");
+			System.out.println("ï¿½ï¿½ï¿½ï¿½ ï¿½Õ´Ï´ï¿½");
 		*/
 		/*
 		int num;
-		System.out.println("¼ö ÀÔ·Â : ");
+		System.out.println("ï¿½ï¿½ ï¿½Ô·ï¿½ : ");
 		num = input.nextInt();
 		if(num > 10)
 		{
-			System.out.println("Á¾¼Ó¹®Àå ½ÇÇà");
-			System.out.println("Á¾¼Ó¹®Àå ½ÇÇà");
-			System.out.println("Á¾¼Ó¹®Àå ½ÇÇà");
-			System.out.println("Á¾¼Ó¹®Àå ½ÇÇà");
-			System.out.println("Á¾¼Ó¹®Àå ½ÇÇà");
-			System.out.println("Á¾¼Ó¹®Àå ½ÇÇà");
-			System.out.println("Á¾¼Ó¹®Àå ½ÇÇà");
+			System.out.println("ï¿½ï¿½ï¿½Ó¹ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½");
+			System.out.println("ï¿½ï¿½ï¿½Ó¹ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½");
+			System.out.println("ï¿½ï¿½ï¿½Ó¹ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½");
+			System.out.println("ï¿½ï¿½ï¿½Ó¹ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½");
+			System.out.println("ï¿½ï¿½ï¿½Ó¹ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½");
+			System.out.println("ï¿½ï¿½ï¿½Ó¹ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½");
+			System.out.println("ï¿½ï¿½ï¿½Ó¹ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½");
 		}
-		System.out.println("´ÙÀ½ ¹®ÀåÀÔ´Ï´Ù");
+		System.out.println("ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ô´Ï´ï¿½");
 		*/
 		/*
 		int num;
-		System.out.println("¼ö ÀÔ·Â : ");
+		System.out.println("ï¿½ï¿½ ï¿½Ô·ï¿½ : ");
 		num = input.nextInt();
 		if(num % 2 == 0) {
-			System.out.println("ÀÔ·ÂÇÏ½Å ¼ö´Â Â¦¼ö ÀÔ´Ï´Ù.");
+			System.out.println("ï¿½Ô·ï¿½ï¿½Ï½ï¿½ ï¿½ï¿½ï¿½ï¿½ Â¦ï¿½ï¿½ ï¿½Ô´Ï´ï¿½.");
 		}
 		if(num % 2 != 0) {
-			System.out.println("ÀÔ·ÂÇÏ½Å ¼ö´Â È¦¼ö ÀÔ´Ï´Ù");
+			System.out.println("ï¿½Ô·ï¿½ï¿½Ï½ï¿½ ï¿½ï¿½ï¿½ï¿½ È¦ï¿½ï¿½ ï¿½Ô´Ï´ï¿½");
 		}
 		*/
 		
 		Scanner input = new Scanner(System.in);
-		//ÀÔ·ÂÇÑ µ¥ÀÌÅÍ°¡ 3ÀÇ ¹è¼öÀÎ °æ¿ì Ãâ·ÂÇÏ½Ã¿À.
+		//ï¿½Ô·ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Í°ï¿½ 3ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ï½Ã¿ï¿½.
 		int num0;
-		System.out.println("3ÀÇ ¹è¼öÀÎÁö °Ë»çÇÕ´Ï´Ù. ¼ö ÀÔ·Â: ");
+		System.out.println("3ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ë»ï¿½ï¿½Õ´Ï´ï¿½. ï¿½ï¿½ ï¿½Ô·ï¿½: ");
 		num0 = input.nextInt();
-		String result = (num0%3 == 0)?"3ÀÇ ¹è¼öÀÔ´Ï´Ù":"3ÀÇ ¹è¼ö°¡ ¾Æ´Õ´Ï´Ù";
+		String result = (num0%3 == 0)?"3ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ô´Ï´ï¿½":"3ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Æ´Õ´Ï´ï¿½";
 		System.out.println(num0+"="+result);
-		//ÀÔ·ÂÇÑ ¼öÀÇ Àý´ë°ªÀ» ±¸ÇÏ´Â ÇÁ·Î±×·¥À» ÀÛ¼ºÇÏ½Ã¿À.
-		System.out.println("Àý´ñ°ªÀ» °è»êÇÕ´Ï´Ù. ¼ö ÀÔ·Â: ");
+		//ï¿½Ô·ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ë°ªï¿½ï¿½ ï¿½ï¿½ï¿½Ï´ï¿½ ï¿½ï¿½ï¿½Î±×·ï¿½ï¿½ï¿½ ï¿½Û¼ï¿½ï¿½Ï½Ã¿ï¿½.
+		System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Õ´Ï´ï¿½. ï¿½ï¿½ ï¿½Ô·ï¿½: ");
 		int num1 = input.nextInt();
-		System.out.println(num1+"ÀÇ Àý´ñ°ª: "+Math.abs(num1));
-		//µÎ¼ö¸¦ ÀÔ·Â ¹Þ¾Æ Å« ¼ö¸¦ Ãâ·ÂÇÏ½Ã¿À.
-		System.out.println("´õ Å« ¼ö¸¦ Ã£½À´Ï´Ù. µÎ ¼ö ÀÔ·Â: ");
+		System.out.println(num1+"ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½: "+Math.abs(num1));
+		//ï¿½Î¼ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½ ï¿½Þ¾ï¿½ Å« ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ï½Ã¿ï¿½.
+		System.out.println("ï¿½ï¿½ Å« ï¿½ï¿½ï¿½ï¿½ Ã£ï¿½ï¿½ï¿½Ï´ï¿½. ï¿½ï¿½ ï¿½ï¿½ ï¿½Ô·ï¿½: ");
 		int num2 = input.nextInt();
 		int num3 = input.nextInt();
-		System.out.println((num2>num3)?num2:num3 + "(ÀÌ)°¡ ´õ Å®´Ï´Ù.");
-		System.out.println("°¡Àå Å« ¼ö¸¦ Ã£½À´Ï´Ù. ¼¼ ¼ö ÀÔ·Â: ");
+		System.out.println((num2>num3)?num2:num3 + "(ï¿½ï¿½)ï¿½ï¿½ ï¿½ï¿½ Å®ï¿½Ï´ï¿½.");
+		System.out.println("ï¿½ï¿½ï¿½ï¿½ Å« ï¿½ï¿½ï¿½ï¿½ Ã£ï¿½ï¿½ï¿½Ï´ï¿½. ï¿½ï¿½ ï¿½ï¿½ ï¿½Ô·ï¿½: ");
 		int num4 = input.nextInt();
 		int num5 = input.nextInt();
 		int num6 = input.nextInt();
 		int result_ = (num4>num5)?num4:num5;
-		System.out.println((result_>num6)?result_:num6+"(ÀÌ)°¡ °¡Àå Å®´Ï´Ù.");
-		System.out.println("´õ Å« ¼ö¸¦ Ã£¾Æ Â¦¼öÀÎÁö °Ë»çÇÕ´Ï´Ù. µÎ ¼ö ÀÔ·Â: ");
+		System.out.println((result_>num6)?result_:num6+"(ï¿½ï¿½)ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ Å®ï¿½Ï´ï¿½.");
+		System.out.println("ï¿½ï¿½ Å« ï¿½ï¿½ï¿½ï¿½ Ã£ï¿½ï¿½ Â¦ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ë»ï¿½ï¿½Õ´Ï´ï¿½. ï¿½ï¿½ ï¿½ï¿½ ï¿½Ô·ï¿½: ");
 		int num7 = input.nextInt();
 		int num8 = input.nextInt();
 		int bigger = (num7>num8)?num7:num8;
-		System.out.println(((num7>num8?num7:num8)%2==0)?bigger+"(Àº)´Â Â¦¼öÀÔ´Ï´Ù.":bigger+"(Àº)´Â Â¦¼ö°¡ ¾Æ´Õ´Ï´Ù.");
-		System.out.println("µÎ ¼öÀÇ ÇÕÀÌ Â¦¼öÀÌ¸ç 3ÀÇ ¹è¼öÀÎÁö °Ë»çÇÕ´Ï´Ù. µÎ ¼ö ÀÔ·Â: ");
+		System.out.println(((num7>num8?num7:num8)%2==0)?bigger+"(ï¿½ï¿½)ï¿½ï¿½ Â¦ï¿½ï¿½ï¿½Ô´Ï´ï¿½.":bigger+"(ï¿½ï¿½)ï¿½ï¿½ Â¦ï¿½ï¿½ï¿½ï¿½ ï¿½Æ´Õ´Ï´ï¿½.");
+		System.out.println("ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ Â¦ï¿½ï¿½ï¿½Ì¸ï¿½ 3ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ë»ï¿½ï¿½Õ´Ï´ï¿½. ï¿½ï¿½ ï¿½ï¿½ ï¿½Ô·ï¿½: ");
 		int num9 = input.nextInt();
 		int num10 = input.nextInt();
 		int sum = num9 + num10;
-		System.out.println((sum%2==0&&sum%3==0)?sum+"Àº(´Â)Â¦¼öÀÌ°í 3ÀÇ ¹è¼öÀÔ´Ï´Ù.":sum+"Àº(´Â)Â¦¼öÀÌ°í 3ÀÇ ¹è¼ö°¡ ¾Æ´Õ´Ï´Ù.");
+		System.out.println((sum%2==0&&sum%3==0)?sum+"ï¿½ï¿½(ï¿½ï¿½)Â¦ï¿½ï¿½ï¿½Ì°ï¿½ 3ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ô´Ï´ï¿½.":sum+"ï¿½ï¿½(ï¿½ï¿½)Â¦ï¿½ï¿½ï¿½Ì°ï¿½ 3ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Æ´Õ´Ï´ï¿½.");
 	}
 }
 

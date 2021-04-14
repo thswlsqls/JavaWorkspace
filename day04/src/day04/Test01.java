@@ -6,90 +6,91 @@ public class Test01 {
 
 	public static void main(String[] args) {
 		/*
+		 * git test, git commit --amend, git reset HEAD, git reset HEAD^, git log -p, commit changes, day03 day04 added - scanner, if switch
 		Scanner input = new Scanner(System.in);
 		int num = input.nextInt();
 		if(num % 3 == 0) {
-			System.out.println("ÀÔ·ÂÇÏ½Å ¼ö´Â 3ÀÇ ¹è¼ö ÀÔ´Ï´Ù.");
+			System.out.println("ï¿½Ô·ï¿½ï¿½Ï½ï¿½ ï¿½ï¿½ï¿½ï¿½ 3ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½Ô´Ï´ï¿½.");
 		}
 		else {
-			System.out.println("ÀÔ·ÂÇÏ½Å ¼ö´Â 3ÀÇ ¹è¼ö°¡ ¾Æ´Õ´Ï´Ù.");
+			System.out.println("ï¿½Ô·ï¿½ï¿½Ï½ï¿½ ï¿½ï¿½ï¿½ï¿½ 3ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Æ´Õ´Ï´ï¿½.");
 		}
-		System.out.println("´ÙÀ½ ¹®ÀåÀ» ½ÇÇàÇÕ´Ï´Ù.");
+		System.out.println("ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Õ´Ï´ï¿½.");
 		}
 	}
 	*/
 	/*
 	Scanner input = new Scanner(System.in);
 	int su1, su2, max, min;
-	System.out.print("Á¡¼ö µÎ °³ ÀÔ·Â : ");
+	System.out.print("ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ ï¿½Ô·ï¿½ : ");
 	su1 = input.nextInt();
 	su2 = input.nextInt();
 	*/
 	
 	/*
 	Scanner input = new Scanner(System.in);
-	System.out.println("5ÀÇ ¹è¼öÀÎÁö °Ë»çÇÕ´Ï´Ù. ¼ö ÀÔ·Â: ");
+	System.out.println("5ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ë»ï¿½ï¿½Õ´Ï´ï¿½. ï¿½ï¿½ ï¿½Ô·ï¿½: ");
 	int num0 = input.nextInt();
-	System.out.println(num0%5==0?"5ÀÇ ¹è¼öÀÔ´Ï´Ù.":"5ÀÇ ¹è¼ö°¡ ¾Æ´Õ´Ï´Ù.");
+	System.out.println(num0%5==0?"5ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ô´Ï´ï¿½.":"5ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Æ´Õ´Ï´ï¿½.");
 	
-	System.out.println("0º¸´Ù Å©°í 100º¸´Ù ÀÛÀºÁö °Ë»çÇÕ´Ï´Ù. ¼ö ÀÔ·Â: ");
+	System.out.println("0ï¿½ï¿½ï¿½ï¿½ Å©ï¿½ï¿½ 100ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ë»ï¿½ï¿½Õ´Ï´ï¿½. ï¿½ï¿½ ï¿½Ô·ï¿½: ");
 	int num1 = input.nextInt();
-	System.out.println((num1>0)&&(num1<100)?"Á¤»ó":"ºñÁ¤»ó");
+	System.out.println((num1>0)&&(num1<100)?"ï¿½ï¿½ï¿½ï¿½":"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
 	
-	System.out.println("Â¦¼öÀÌ¸é¼­ 3ÀÇ ¹è¼öÀÎÁö °Ë»çÇÕ´Ï´Ù. ¼ö ÀÔ·Â: ");
+	System.out.println("Â¦ï¿½ï¿½ï¿½Ì¸é¼­ 3ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ë»ï¿½ï¿½Õ´Ï´ï¿½. ï¿½ï¿½ ï¿½Ô·ï¿½: ");
 	int num2 = input.nextInt();
-	System.out.println((num2%2==0)&&(num2%3==0)?"Â¦¼öÀÌ¸é¼­ 3ÀÇ ¹è¼öÀÔ´Ï´Ù.":"Â¦¼öÀÌ¸é¼­ 3ÀÇ ¹è¼ö°¡ ¾Æ´Õ´Ï´Ù.");
+	System.out.println((num2%2==0)&&(num2%3==0)?"Â¦ï¿½ï¿½ï¿½Ì¸é¼­ 3ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ô´Ï´ï¿½.":"Â¦ï¿½ï¿½ï¿½Ì¸é¼­ 3ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Æ´Õ´Ï´ï¿½.");
 	*/
 	/*	
 		Scanner input = new Scanner(System.in);
 		int num;
-		System.out.print("¼ö ÀÔ·Â : ");
+		System.out.print("ï¿½ï¿½ ï¿½Ô·ï¿½ : ");
 		num = input.nextInt();
 		if(num>100) {
-			System.out.println(num+" : 100º¸´Ù Å©´Ù");
+			System.out.println(num+" : 100ï¿½ï¿½ï¿½ï¿½ Å©ï¿½ï¿½");
 		}else if(num>50) {
-			System.out.println(num+" : 50º¸´Ù Å©´Ù.");
+			System.out.println(num+" : 50ï¿½ï¿½ï¿½ï¿½ Å©ï¿½ï¿½.");
 		}else {
-			System.out.println(num+" : 50º¸´Ù ÀÛÀº °ªµé");
+			System.out.println(num+" : 50ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½");
 		}
 	*/	
 	
 	Scanner input = new Scanner(System.in);
-	System.out.println("Ä¿ÇÇÀÇ °³¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä.: ");
+	System.out.println("Ä¿ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½ï¿½Ï¼ï¿½ï¿½ï¿½.: ");
 	int count = input.nextInt();
-	System.out.println(count>10?"ÃÑ ±Ý¾×: "+ (10*2000+(count-10)*1500):"ÃÑ ±Ý¾× :"+ (count*2000));
+	System.out.println(count>10?"ï¿½ï¿½ ï¿½Ý¾ï¿½: "+ (10*2000+(count-10)*1500):"ï¿½ï¿½ ï¿½Ý¾ï¿½ :"+ (count*2000));
 		
-	System.out.println("usbÀÇ °³¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä.: ");
+	System.out.println("usbï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½ï¿½Ï¼ï¿½ï¿½ï¿½.: ");
 	int count0 = input.nextInt();
-	System.out.println(count0>100?"ÃÑ ±Ý¾×: "+ (count0*5000*0.88):"ÃÑ ±Ý¾× :"+ ((count0>10)?count0*5000*0.9:count0*5000));
+	System.out.println(count0>100?"ï¿½ï¿½ ï¿½Ý¾ï¿½: "+ (count0*5000*0.88):"ï¿½ï¿½ ï¿½Ý¾ï¿½ :"+ ((count0>10)?count0*5000*0.9:count0*5000));
 	
 	/*
-	³ªÀÌ¸¦ ÀÔ·Â¹Þ¾Æ¼­ ¼ºÀÎ°ú ¹Ì¼º³âÀÚ·Î ±¸ºÐÇÑ´Ù.
-	¼ºÀÎÀÎ °æ¿ì¿¡ 20~39¼¼¶ó¸é Ã»³â, ÀÌ ÀÌ»óÀÌ¸é ÁßÀå³âÀ¸·Î ±¸ºÐÇÑ´Ù.
-	¹Ì¼º³âÀÎ °æ¿ì¿¡´Â 14~19¼¼´Â Ã»¼Ò³â, 14¼¼ ¹Ì¸¸Àº ¾î¸°ÀÌ·Î ºÐ¸®ÇÑ´Ù.
+	ï¿½ï¿½ï¿½Ì¸ï¿½ ï¿½Ô·Â¹Þ¾Æ¼ï¿½ ï¿½ï¿½ï¿½Î°ï¿½ ï¿½Ì¼ï¿½ï¿½ï¿½ï¿½Ú·ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ñ´ï¿½.
+	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ì¿¡ 20~39ï¿½ï¿½ï¿½ï¿½ï¿½ Ã»ï¿½ï¿½, ï¿½ï¿½ ï¿½Ì»ï¿½ï¿½Ì¸ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ñ´ï¿½.
+	ï¿½Ì¼ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ì¿¡ï¿½ï¿½ 14~19ï¿½ï¿½ï¿½ï¿½ Ã»ï¿½Ò³ï¿½, 14ï¿½ï¿½ ï¿½Ì¸ï¿½ï¿½ï¿½ ï¿½î¸°ï¿½Ì·ï¿½ ï¿½Ð¸ï¿½ï¿½Ñ´ï¿½.
 	*/
-	System.out.println("³ªÀÌ¸¦ ÀÔ·ÂÇÏ¼¼¿ä.: ");
+	System.out.println("ï¿½ï¿½ï¿½Ì¸ï¿½ ï¿½Ô·ï¿½ï¿½Ï¼ï¿½ï¿½ï¿½.: ");
 	int age1 = input.nextInt();
-	System.out.println(age1>39?"ÁßÀå³â":(age1>19?"Ã»³â":(age1>13?"Ã»¼Ò³â":"¾î¸°ÀÌ")));
+	System.out.println(age1>39?"ï¿½ï¿½ï¿½ï¿½ï¿½":(age1>19?"Ã»ï¿½ï¿½":(age1>13?"Ã»ï¿½Ò³ï¿½":"ï¿½î¸°ï¿½ï¿½")));
 	
 	//2
-	System.out.println("Á¡¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä.: ");
+	System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½ï¿½Ï¼ï¿½ï¿½ï¿½.: ");
 	int score = input.nextInt();
 	System.out.println(score>=90?"A":(score>=80?"B":score>=70?"C":score>=60?"D":"F"));
 	
 	//3
-	System.out.println("¿¬µµ¸¦ ÀÔ·ÂÇÏ¼¼¿ä. : ");
+	System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½ï¿½Ï¼ï¿½ï¿½ï¿½. : ");
 	int year = input.nextInt();
-	System.out.println((year%4==0&&year%100!=0)||year%400==0?"1(À±³âÀÔ´Ï´Ù.)":"0(À±³âÀÌ ¾Æ´Õ´Ï´Ù.)");
+	System.out.println((year%4==0&&year%100!=0)||year%400==0?"1(ï¿½ï¿½ï¿½ï¿½ï¿½Ô´Ï´ï¿½.)":"0(ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Æ´Õ´Ï´ï¿½.)");
 	
 	//4
-	System.out.println("¼¼ Á¤¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä. : ");
+	System.out.println("ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½ï¿½Ï¼ï¿½ï¿½ï¿½. : ");
 	int n0= input.nextInt();
 	int n1= input.nextInt();
 	int n2= input.nextInt();
 		
-	System.out.println("ÃÖ¼Ò°ª: " + (n0<=n1&&n1<=n2?n0:(n0<=n2?n0:n2)) + " ÃÖ´ë°ª: " + 
-	(n0>=n1&&n1>=n2?n0:(n0>=n2?n0:n2)) + " ÇÕ°è: " + (n0+n1+n2) + " Æò±Õ: " + ((n0+n1+n2)/3)); 
+	System.out.println("ï¿½Ö¼Ò°ï¿½: " + (n0<=n1&&n1<=n2?n0:(n0<=n2?n0:n2)) + " ï¿½Ö´ë°ª: " + 
+	(n0>=n1&&n1>=n2?n0:(n0>=n2?n0:n2)) + " ï¿½Õ°ï¿½: " + (n0+n1+n2) + " ï¿½ï¿½ï¿½: " + ((n0+n1+n2)/3)); 
 	
 	}
 }
